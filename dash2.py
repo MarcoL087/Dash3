@@ -31,6 +31,7 @@ initial_fig.update_layout(
 
 # Initialize Dash app
 app = dash.Dash(__name__, suppress_callback_exceptions=True)
+server= app.server
 
 # App layout
 app.layout = html.Div(
